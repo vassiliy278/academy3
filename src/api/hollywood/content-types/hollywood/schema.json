@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hollywoods",
+  "info": {
+    "singularName": "hollywood",
+    "pluralName": "hollywoods",
+    "displayName": "hollywood"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "born": {
+      "type": "integer"
+    },
+    "isAlive": {
+      "type": "boolean"
+    },
+    "country": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
